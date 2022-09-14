@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Arial", Helvetica, monospace;
+  }
+  body {
+    background-color:peachpuff;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    box-shadow: 3px 6px 12px rgb(14, 14, 14);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
